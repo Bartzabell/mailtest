@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             PhilippinesProvincesSeeder::class,
             PhilippinesCitiesSeeder::class,
-            PhilippinesBarangaySeeder::class,
+            // PhilippinesBarangaySeeder::class,
             ServicesTableSeeder::class,
             DiscountSeed::class,
             UsersSeeder::class,
