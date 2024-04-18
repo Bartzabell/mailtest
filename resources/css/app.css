@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+#inputbox {
+    width: 100%; /* Make the textarea take up the full width of its container */
+    height: 50px; /* Set the initial height in pixels */
+    resize: vertical; /* Allow vertical resizing */
+    padding-left: 10px;
+}
+
+#form-signin {
+    max-width: 100%;
+}
+
+.focus\:shadow-md-bottom:focus {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2),
+        0 2px 4px -1px rgba(0, 0, 0, 0.12);
+}
+
+#male,
+#female {
+    height: 26px;
+    width: 26px;
+}
+
+#adminsex,
+#adminprov,
+#admincity,
+#adminbrgy {
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#custom-shadow-x-card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.2); /* Customize the shadow values here */
+}
+
+/* Example CSS */
+.outline {
+    border: 1px solid #747474; /* Set the border color and style */
+    color: #747474; /* Set the text color */
+    background-color: transparent; /* Set the background color to transparent */
+}
+
+#custom-svg-fill-view {
+    fill: rgb(80, 126, 255);
+}
+
+#custom-svg-fill-edit {
+    fill: rgb(80, 126, 255);
+}
+.custom-save-button {
+    background-color: red;
+    color: white;
+}
+
+/* start of tooth chart css */
+/*
+body{
+    background: white
+  } */
+
+  .tooth-chart{
+    width:450px;
+  }
+
+  #Spots{
+    polygon, path{
+      -webkit-transition:fill .25s;
+      transition:fill .25s;
+    }
+    polygon:hover, polygon:active, path:hover, path:active{
+      fill:#dddddd !important;
+    }
+  }
+  /* end of tooth chart css */
