@@ -17,7 +17,7 @@
     {{-- <script src="../path/to/flowbite/dist/flowbite.min.js"></script> --}}
     {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script> --}}
     <title>Hugo-Foronda Dental Clinic</title>
-    <link rel="icon" href="img/tooth-solid.svg" type="image/svg+xml" sizes="any">
+    <link rel="icon" href="img/logonew.png" type="image/svg+xml" sizes="any">
     {{-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/chart.js"> --}}
     {{-- <link rel="icon" href="../../public/img/main-logo-transparent.png" type="image/svg+xml" sizes="any"> --}}
     <wireui:scripts />
