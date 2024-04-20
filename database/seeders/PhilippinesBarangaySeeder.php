@@ -15,7 +15,7 @@ class PhilippinesBarangaySeeder extends Seeder
     {
         //
         if(!DB::table('philippine_barangays')->count()){
-            DB::unprepared(file_get_contents('mailtest\database\seeder\sql\philippine_barangays.sql'));
+            DB::unprepared(file_get_contents(__DIR__ . '/sql/philippine_barangays.sql'));
         }
     }
 }
